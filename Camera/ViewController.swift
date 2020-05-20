@@ -17,6 +17,7 @@ class ViewController: UIViewController {
 
     func Log(){
         print("テスト");
+        print("高田です！よろしく！！");
     }
 }
 
