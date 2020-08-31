@@ -16,6 +16,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
     // カメラアプリ起動
     @IBAction func launchCamera(_ sender: UIBarButtonItem) {
+        // 定数宣言
         let camera = UIImagePickerController.SourceType.camera
         
         if UIImagePickerController.isSourceTypeAvailable(camera){
